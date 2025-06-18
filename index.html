@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PNFC Network</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #111;
+      color: #fff;
+    }
+    header {
+      background-color: #ff9900;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
+    .section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    .section h2 {
+      color: #ff9900;
+    }
+    .steps {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .step {
+      background: #222;
+      padding: 1rem;
+      border-radius: 0.5rem;
+    }
+    .form-section {
+      background: #222;
+      padding: 2rem;
+      border-radius: 0.5rem;
+      margin-top: 2rem;
+    }
+    label {
+      display: block;
+      margin-top: 1rem;
+    }
+    input, select, button {
+      width: 100%;
+      padding: 0.75rem;
+      margin-top: 0.5rem;
+      border-radius: 0.5rem;
+      border: none;
+      font-size: 1rem;
+    }
+    button {
+      background: #ff9900;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>PNFC Network</h1>
+    <p>Watch Township Podcasts. Data-Light. Free. Real.</p>
+  </header>
+
+  <div class="section">
+    <h2>How It Works</h2>
+    <div class="steps">
+      <div class="step">🎧 <strong>Creators upload</strong> their shows — we stream it free.</div>
+      <div class="step">👀 <strong>You watch or listen</strong>, no expensive data needed.</div>
+      <div class="step">💸 <strong>Ads support creators</strong> — you help them earn by engaging.</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Why This Matters</h2>
+    <p>YouTube is too expensive. Spotify wants your money. PNFC gives you stories from the streets, without the fees or data stress.</p>
+  </div>
+
+  <div class="section form-section">
+    <h2>Sign Up to Join Early Access</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email or WhatsApp:</label>
+      <input type="text" id="email" name="email" required>
+
+      <label for="role">I am a:</label>
+      <select id="role" name="role">
+        <option value="listener">Listener</option>
+        <option value="creator">Creator / Podcaster</option>
+        <option value="brand">Advertiser / Brand</option>
+      </select>
+
+      <button type="submit">Join Now</button>
+    </form>
+  </div>
+</body>
+</html>
+Initial commit of landing page
